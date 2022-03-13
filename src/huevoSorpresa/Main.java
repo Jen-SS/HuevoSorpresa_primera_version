@@ -5,13 +5,19 @@
 package huevoSorpresa;
 
 /**
- *
- * @author Profesor
+ * Clase Main del programa donde se define un objeto HuevoSorpresaSerranoSerranoMariaEugenia2122 con unos parámetros
+ * y realiza acciones de aumentar el precio y de intentar sacar dos unidades
+ * 
+ * @author Maria Eugenia Serrano Serrano
  */
 public class Main {
 
     /**
-     * @param args the command line arguments
+     * Método main
+     * 
+     * Este método es el principal de ejecución del programa
+     * 
+     * @param args argumentos de la línea de comandos
      */
     public static void main(String[] args) {
         // TODO code application logic here
@@ -25,6 +31,17 @@ public class Main {
         
     }
 
+    /**
+     * Método opera_UnidadesSerranoSerranoMariaEugenia2122
+     * 
+     * En este método se va a realizar la acción de intentar sacar 2 huevos sorpresa
+     * 
+     * Se hace con la idea de que, al no haber dinero suficiente, saltará la excepción y
+     * no se modificará el número de unidades en tienda
+     * 
+     * @param h_sorpresa Parámetro que necesitamos usar
+     * 
+     */
     public static void opera_UnidadesSerranoSerranoMariaEugenia2122(HuevoSorpresaSerranoSerranoMariaEugenia2122 h_sorpresa) {
         /*Vamos a intentar sacar 2 huevos sorpresa, como no hay dinero suficiente saltará
         una excepción y no se modificará el nº de unidades de la tienda*/
@@ -38,6 +55,11 @@ public class Main {
         }
     }
 
+    /**
+     *
+     * @param h_sorpresa Parámetro que necesitamos usar
+     * 
+     */
     public static void opera_PrecioSerranoSerranoMariaEugenia2122(HuevoSorpresaSerranoSerranoMariaEugenia2122 h_sorpresa) {
         /*Vamos a aumentar el precio 3€, como no supera el precio máximo establecido la operación
         tendrá éxito y el nuevo precio será de 8€*/
